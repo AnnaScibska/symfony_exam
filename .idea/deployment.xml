@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="BiancoTP">
+    <serverData>
+      <paths name="BiancoTP">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="partiel_symfony_Anna_SCIBSKA/Symfony2018" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

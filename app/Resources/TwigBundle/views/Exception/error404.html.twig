@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="{{ _charset }}" />
+        <title>Erreur : {{ status_text }}</title>
+    </head>
+    <body>
+        <h1>Oups ! Une erreur est survenue</h1>
+        <h2>Le serveur a retourné l'erreur suivante : "{{ status_code }} {{ status_text }}".</h2>
+
+        <div>
+            La page demandée n'existe pas ...
+        </div>
+    </body>
+</html>
