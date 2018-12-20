@@ -21,6 +21,11 @@
                   {{ advert.author }}
               </a>
               , le {{ advert.date|date('d/m/Y') }}
+              (de type:
+              <a href="{{ path('oc_platform_type', {'name': advert.type}) }}">
+                  {{ advert.type }}
+              </a>
+              )
           </li>
       {% else %}
           <li>Pas (encore !) d'annonces</li>
