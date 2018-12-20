@@ -179,6 +179,19 @@
                 'listAdverts' => $listAdverts
             ));
         }
+
+        public function typeAction($name)
+        {
+            $listAdverts = $this->getDoctrine()
+                ->getManager()
+                ->getRepository('OCPlatformBundle:Advert')
+                ->findBy(['type'=>$name]);
+            ;
+
+            return $this->render('OCPlatformBundle:Advert:type.html.twig', array(
+                'listAdverts' => $listAdverts
+            ));
+        }
 		
 	}
 	

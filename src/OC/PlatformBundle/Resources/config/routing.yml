@@ -36,3 +36,10 @@ oc_platform_user:
     path:      /user/{name}
     defaults:
         _controller: OCPlatformBundle:Advert:user
+
+oc_platform_type:
+    path:      /type/{name}
+    defaults:
+        _controller: OCPlatformBundle:Advert:type
+    requirements:
+        type: CDI|CDD|Alternance

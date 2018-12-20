@@ -2,7 +2,7 @@
 
 {% block body %}
 
-    <h2>Liste des annonces de l'utilisateur TODO</h2>
+    <h2>Liste des annonces de type: TODO</h2>
 
     <ul>
         {% for advert in listAdverts %}
@@ -14,7 +14,7 @@
                 le {{ advert.date|date('d/m/Y') }}
             </li>
         {% else %}
-            <li>Pas (encore !) d'annonces</li>
+            <li>Pas (encore !) d'annonces de ce type</li>
         {% endfor %}
     </ul>
 

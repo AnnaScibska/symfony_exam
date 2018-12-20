@@ -199,28 +199,5 @@ class Advert
     {
         return $this->published;
     }
-
-    /**
-     * Set type
-     *
-     * @param string $type
-     *
-     * @return Advert
-     */
-    public function setType($type)
-    {
-        $this->type = $type;
-
-        return $this;
-    }
-
-    /**
-     * Get type
-     *
-     * @return string
-     */
-    public function getType()
-    {
-        return $this->type;
-    }
 }
+
