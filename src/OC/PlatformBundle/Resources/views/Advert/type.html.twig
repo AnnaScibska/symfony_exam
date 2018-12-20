@@ -1,8 +1,16 @@
 {% extends "OCPlatformBundle::layout.html.twig" %}
 
+{% block title %}
+    Type  - {{ parent() }}
+{% endblock %}
+
 {% block body %}
 
-    <h2>Liste des annonces de type: TODO</h2>
+    <h2>Annonces</h2>
+
+    <hr>
+
+    <h2>Liste des annonces de type: {{ listAdverts|first.type }}</h2>
 
     <ul>
         {% for advert in listAdverts %}
@@ -10,8 +18,10 @@
                 <a href="{{ path('oc_platform_view', {'id': advert.id}) }}">
                     {{ advert.title }}
                 </a>
-                par {{ advert.author }},
-                le {{ advert.date|date('d/m/Y') }}
+                par <a href="{{ path('oc_platform_user', {'name': advert.author}) }}">
+                    {{ advert.author }}
+                </a>
+                , le {{ advert.date|date('d/m/Y') }}
             </li>
         {% else %}
             <li>Pas (encore !) d'annonces de ce type</li>
