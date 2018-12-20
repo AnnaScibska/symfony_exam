@@ -535,7 +535,6 @@
       <change afterPath="$PROJECT_DIR$/../../org/Symfony3/Symfony2018/.idea/php.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../org/Symfony3/Symfony2018/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../org/Symfony3/Symfony2018/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OC/PlatformBundle/Resources/views/Advert/type.html.twig" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../php/Heritage/Employe.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../php/Heritage/Technician.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../php/Heritage/phpHeritage.php" afterDir="false" />
@@ -3422,12 +3421,7 @@
       <change afterPath="$PROJECT_DIR$/../../wp/wp-signup.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../wp/wp-trackback.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../wp/xmlrpc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Controller/AdvertController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/OC/PlatformBundle/Controller/AdvertController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Entity/Advert.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/OC/PlatformBundle/Entity/Advert.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Resources/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/OC/PlatformBundle/Resources/config/routing.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OC/PlatformBundle/Resources/views/Advert/user.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/OC/PlatformBundle/Resources/views/Advert/user.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -3464,14 +3458,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="22" />
+          <entry key="php" value="69" />
           <entry key="twig" value="90" />
           <entry key="yml" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="22" />
+          <entry key="PHP" value="69" />
           <entry key="Twig" value="90" />
           <entry key="YAML" value="23" />
         </counts>
@@ -3498,11 +3492,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/OC/PlatformBundle/Controller/AdvertController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1394">
-              <caret line="190" column="72" selection-start-line="190" selection-start-column="58" selection-end-line="190" selection-end-column="72" />
+            <state relative-caret-position="391">
+              <caret line="128" column="20" selection-start-line="128" selection-start-column="20" selection-end-line="128" selection-end-column="20" />
+              <folding>
+                <element signature="e#110#167#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -3534,11 +3531,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/OC/PlatformBundle/Resources/views/Advert/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="323">
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -3555,9 +3552,9 @@
         <option value="$PROJECT_DIR$/src/OC/PlatformBundle/Resources/views/Advert/index.html.twig" />
         <option value="$PROJECT_DIR$/src/OC/PlatformBundle/Entity/Advert.php" />
         <option value="$PROJECT_DIR$/src/OC/PlatformBundle/Resources/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/OC/PlatformBundle/Controller/AdvertController.php" />
         <option value="$PROJECT_DIR$/src/OC/PlatformBundle/Resources/views/Advert/type.html.twig" />
         <option value="$PROJECT_DIR$/src/OC/PlatformBundle/Resources/views/Advert/user.html.twig" />
+        <option value="$PROJECT_DIR$/src/OC/PlatformBundle/Controller/AdvertController.php" />
       </list>
     </option>
   </component>
@@ -3748,12 +3745,12 @@
       <option name="presentableId" value="Default" />
       <updated>1545297145823</updated>
       <workItem from="1545297147229" duration="77000" />
-      <workItem from="1545297288185" duration="2534000" />
+      <workItem from="1545297288185" duration="3989000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2611000" />
+    <option name="totallyTimeSpent" value="4066000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -3808,13 +3805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OC/PlatformBundle/Resources/views/Advert/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/OC/PlatformBundle/Resources/views/Advert/user.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -3834,8 +3824,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/OC/PlatformBundle/Controller/AdvertController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="190" column="72" selection-start-line="190" selection-start-column="58" selection-end-line="190" selection-end-column="72" />
+        <state relative-caret-position="391">
+          <caret line="128" column="20" selection-start-line="128" selection-start-column="20" selection-end-line="128" selection-end-column="20" />
+          <folding>
+            <element signature="e#110#167#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OC/PlatformBundle/Resources/views/Advert/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
         </state>
       </provider>
     </entry>

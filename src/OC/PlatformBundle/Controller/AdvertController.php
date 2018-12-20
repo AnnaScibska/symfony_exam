@@ -14,6 +14,7 @@
 	use Symfony\Component\Form\Extension\Core\Type\SubmitType;
 	use Symfony\Component\Form\Extension\Core\Type\TextareaType;
 	use Symfony\Component\Form\Extension\Core\Type\TextType;
+    use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
 	
 	
 	class AdvertController extends Controller
@@ -89,6 +90,9 @@
 			$formBuilder->add('title',     TextType::class);
 			$formBuilder->add('content',   TextareaType::class);
 			$formBuilder->add('author',    TextType::class);
+            $formBuilder->add('type', ChoiceType::class, array(
+                'choices' => array('CDI' => 'CDI', 'CDD' => 'CDD', 'Alternance' => 'Alternance'
+                )));
 			$formBuilder->add('published', CheckboxType::class);
 			$formBuilder->add('save',      SubmitType::class);
 			// À partir du formBuilder, on génère le formulaire
@@ -120,6 +124,9 @@
 			$formBuilder->add('title',     TextType::class);
 			$formBuilder->add('content',   TextareaType::class);
 			$formBuilder->add('author',    TextType::class);
+            $formBuilder->add('type', ChoiceType::class, array(
+                'choices' => array('CDI' => 'CDI', 'CDD' => 'CDD', 'Alternance' => 'Alternance'
+                )));
 			$formBuilder->add('published', CheckboxType::class);
 			$formBuilder->add('save',      SubmitType::class);
 			
